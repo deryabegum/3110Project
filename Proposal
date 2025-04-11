@@ -1,0 +1,26 @@
+Movie Recommendation System Proposal
+Group Members: Derya Ari, Burak Cakir, Selim Maral
+GitHub Repository:
+Introduction
+The main goal of this project is developing a Movie Recommendations System which will suggest movies to users based on their preferences. There are numerous movies available in various platforms, which often causes the users to struggle finding a movie that matches their preferences. This project is aiming to solve this problem by allowing users to choose the movie they like based on the recommendations they receive from their similarity measures.
+The Movie Recommendation System will hold data structures like arrays, dictionaries for storing & retrieving movie rating efficiently. Also, the system will apply content-based filtering & collaborative filtering to generate recommendations. While providing a tool for movie enthusiasts, we would like to gain insights into data structure & algorithm efficiency.
+Objectives
+•	Development of a practical movie recommendation system for tailoring movie suggestion based on the user-selected preferences
+•	Utilization of similarity algorithms for matching user preferences with the similar movies
+•	Implementation of efficient data structures like dictionaries & arrays for processing & storing the movie data.
+•	Designing a user-friendly interface which would let the users smoothly input their movie preferences.
+Scope
+•	For the interface, the system would let the users make selections of  2-10 movies they like from a predefined dataset. 
+•	For the dataset structures, the implementation of dictionaries, arrays, & simple similarity metrics would be applied for efficiency.
+•	For the recommendation algorithm, application of content-based filtering will be applied to suggest the users movies with similar/related features, genres, & ratings.
+•	For the dataset utilization, the MovieLens dataset will be used to ensure real-world applicability.
+Methodology
+We plan to start our approach to the project by preprocessing the MovieLens dataset, where we will be extracting the relevant movie & rating information. Then the users would select their preferred movies from the given list. After the selection, the similarity measures like cosine similarity or Jaccard similarity will be applied to compute the relationships between the chosen movies to list suitable recommendations. This implementation will operate in Python with the use of libraries such as scikit-learn, pandas, & NumPy.
+Resources
+For the dataset we will be using the MovieLens 100K dataset which is available at grouplens.org. We will be using the Python programming language with the libraries like scikit-learn, pandas, NumPy, & Matplotlib to handle & visualize the data. Our development environment we will be using is VS Code, Jupyter Notebook, and possibly PyCharm.
+Timeline
+The start of the project will begin with setting up the dataset & the Python environment, which will be done in week 1. In week 2, we will be processing the data. Implementation of the similarity algorithms will be done in week 3, which is followed by the development of the interface & integration logic in week 4. For week 5, we will focus on debugging, and performance optimization.
+Expected Outcomes
+After the project, we expect an outcome of a fully functional movie recommendation that successfully customizes the movies based on the user’s selected movies. We hope to have a better understanding of algorithms & how to handle large datasets efficiently with arrays & dictionaries.
+
+
